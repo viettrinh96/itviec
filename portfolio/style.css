@@ -1,0 +1,164 @@
+:root {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  background-color: tomato;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 80px;
+}
+#navigation .container {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+#navigation a {
+  color: white;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#navigation a:hover {
+  color: #002951;
+}
+#about {
+  padding-top: 80px;
+  height: 550px;
+  background-color: whitesmoke;
+}
+#about .container {
+  display: flex;
+  justify-content: space-around;
+}
+#about img {
+  bottom: 90px;
+  position: relative;
+}
+#about #content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#about #content h2 {
+  border: 0px solid black;
+  background-color: tomato;
+  border-radius: 30px 30px;
+  width: 180px;
+  height: 45px;
+  color: white;
+  text-align: center;
+  top: 10px;
+  position: relative;
+}
+#about #content p {
+  color: #002951;
+}
+#project {
+  padding-top: 80px;
+  height: 770px;
+  background-color: rgb(254, 222, 217);
+}
+
+#project .container {
+  display: flex;
+  flex-direction: column;
+}
+.container .project1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.container .project2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#project .title {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  height: 60px;
+  margin-bottom: 40px;
+}
+#project a {
+  text-decoration: none;
+  color: tomato;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#project p {
+  color: #002951;
+}
+#project img {
+  border: 0px solid white;
+  border-radius: 30px 30px;
+}
+.project1 p {
+  width: 500px;
+}
+.project2 p {
+  width: 500px;
+}
+.project2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#skill {
+  padding-top: 80px;
+  height: 550px;
+  background-color: whitesmoke;
+}
+#skilltitle {
+  color: tomato;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.listskill .skilltop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.listskill .skillbot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.listskill p {
+  text-align: center;
+}
+footer {
+  background-color: tomato;
+  width: 100%;
+  height: 150px;
+}
+#contacttitle {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#contactlogo {
+  display: flex;
+  justify-content: center;
+}
+#contactlogo a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
