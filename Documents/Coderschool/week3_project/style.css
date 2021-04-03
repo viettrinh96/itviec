@@ -1,0 +1,55 @@
+:root {
+  color: #2b2b2b;
+  color: var(--textDefault);
+  --textBrand: #1b4de4;
+  --textDefault: #2b2b2b;
+  --textDark: #000;
+  --textMedium: #2b2b2b;
+  --textLight: #6f7585;
+  --textOverlay: #fff;
+  --textDisabled: #43454e;
+  --borderDefault: #dedede;
+  --borderLight: #f0f0f0;
+  --backgroundDefault: #fff;
+  --backgroundCard: #fff;
+  --backgroundBrand: #039;
+  --backgroundActive: #1b4de4;
+  --backgroundBrandAccent: #1b4de4;
+  --backgroundInverse: #000;
+  --backgroundOverlay: #fff;
+  --backgroundModalOverlay: rgba(0, 0, 0, 0.8);
+  --backgroundTableBody: #f1f1f1;
+  --buttonBackground: #fff;
+  --buttonText: #1b4de4;
+  --primaryButtonBackground: #1b4de4;
+  --primaryButtonText: #fff;
+  --secondaryButtonBackground: #fff;
+  --secondaryButtonText: #1b4de4;
+}
+body {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url("113.jpg");
+}
+footer {
+  height: 60vh;
+  background-color: white;
+  z-index: 1;
+}
+#nav1 {
+  height: 80px;
+  width: 1500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#searchSth {
+  border-radius: 20px;
+  width: 260px;
+  text-align: center;
+}
+.navbar-toggler {
+  color: white;
+}
