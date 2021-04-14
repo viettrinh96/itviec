@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(190, 254, 254) !important;
+  height: max-content !important;
+}
+.change-button {
+  color: white !important;
+  background-color: teal !important;
+  border: 2px solid white !important;
+  height: 90px;
+  width: 200px !important;
+  border-radius: 10px !important;
+}
+.box {
+  width: 450px;
+  height: 250px;
+  border: 2px solid black;
+  position: relative;
+  left: 400px;
+  top: 200px;
+  background-color: whitesmoke;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+}
+.group-button {
+  display: flex;
+  flex-direction: column;
+}
